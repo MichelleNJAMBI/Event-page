@@ -18,10 +18,10 @@
             </button>
             <div class="collapse navbar-collapse" id="displayMenus">
                 <div class="navbar-nav ">
-                    <a href="#" class="nav-link active text-white" aria-current="page">Home</a>
+                    <a href="index.html" class="nav-link active text-white" aria-current="page">Home</a>
                     <a href="aboutus.html" class="nav-link text-white">About Us</a>
-                    <a href="#" class="nav-link text-white">Contact Us</a>
-                    <a href="#" class="nav-link btn btn-primary text-white">Register</a>
+                    <a href="contactus.html" class="nav-link text-white">Contact Us</a>
+                    <a href="bootcamp.html" class="nav-link btn btn-primary text-white">Register</a>
                 </div>
 
             </div>
@@ -44,28 +44,56 @@
     <div class="text-center">
         <h3>Sign up today!</h3>
     </div>
+    <form action="bootcamp.html">
     <div class="bg-light">
         <h6>Full Name:</h6>
-        <button style="background-color:#fff; font-weight: lighter;">Enter your full name</button>
+        <input type="text" class="form-control" placeholder="Enter your full name ">
     </div>
     <div class="bg-light">
-        <h6>Email Address:</h6>
-        <button style="background-color:#fff; font-weight: lighter;">Please enter your email</button>
+        <label>Email Address:</label>
+        <input type="text" class="form-control" placeholder="Please enter your email">
     </div>
     <div class="bg-light">
-        <h6>Phone Number:</h6>
-        <button style="background-color:#fff; font-weight: lighter;">+2547......</button>
+        <label>Phone Number:</label>
+        <input type="text" class="form-control" placeholder="+2547......">
     </div>
     <div class="bg-light">
         <h6>What’s your gender ?</h6>
-        <button style="background-color:#fff; font-weight: lighter;">-- Select your gender--</button>
+        <select>
+            <option value="option">-- Select your gender--</option>
+        </select>
+
     </div><br>
+</form>
+    <div>
+        <p>
+            In order to complete your registration to the bootcamp, you are required to select one course you
+            will be undertaking. Please NOTE that this will be your learning track during the 2-weeks immersion. 
+        </p>
+    </div>
+    <div class="bg-light">
+        <h6>What’s your preferred course ?</h6>
+        <select>
+            <option value="option">-- Select your course--</option>
+            
+        </select>
+
+    </div><br>
+    <div>
+        <p>
+            You agree by providing your information you understand all our data privacy and protection policy outlined in our Terms & condition and the Privacy Policy statements.
+You allow Zalegram to use your data for communication purposes on any information related to this event.
+        </p>
+        <p><input type="checkbox" class="form-check-input">Agree Terms and Condition. </p>
+       
+    </div>
+
     <div class="text-center bg-light">
         <p class="fw-light">
             Explore all the tools you need to start, run, and grow your business with events. Subscribe to get information, latest news about
             Zalegram Events
         </p>
-        <button style="color: #636060;background-color:#fff;" class="fw-light">Your email address</button>
+        <input type="text" class="label" placeholder="your email address">
         <a href="#" class="btn btn-primary rounded-0"><i class="bi bi-envelope"></i> subscribe </a>
     </div><br>
     <!-- ======footer section====== -->
